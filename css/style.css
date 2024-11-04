@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    font-family: 'Roboto',"Arial", "sans-serif";
+}
+
+header{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 56px;
+    padding: 0 16px;
+
+}
+
+.left-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 26%;
+
+}
+.left-section > *{
+    cursor:pointer;
+
+}
+
+.left-section img{
+    width:86px;
+    margin-left:16px;
+}
+.mid-section{
+    display: flex;
+    align-items: center;
+    margin-left:-9%;
+    width: 58%;
+}
+.mid-section form{
+    display: flex;
+    height: 40px;
+    width:80%;
+}
+.mid-section input{
+    width:100%;
+    border-radius:20px 0 0 20px;
+    padding:12px;
+    font-size:1.6rem;
+    border:1px solid #d3d3d3;
+    border-right:none;
+}
+.mid-section input:focus{
+    outline:1px solid blue;
+}
+.mid-section button{
+    width:64px;
+    border:1px solid #d3d3d3;
+    border-radius:0 20px 20px 0;
+    cursor:pointer;
+    padding:4px 0 0 0;
+    background:#f8f8f8;
+
+    
+}
+
+/*.mid-section > i {*/
+/*    position: relative;*/
+/*    text-align: center;*/
+
+/*    margin: 0 auto;*/
+
+/*}*/
+/*.mid-section > i::before {*/
+/*content:"";*/
+/*position:absolute;*/
+/*    border-radius: 50%;*/
+/*    width:40px;*/
+/*    height:40px;*/
+/*    background: black;*/
+/*    top: 6px;*/
+
+/*    margin:0px 50%;*/
+/*}*/
+
+
+.mid-section .mic{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#f9f9f9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    margin:0 8px;
+}
+
+
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+}
+.right-section a {
+    text-decoration:none;
+    color: #3e3e3e;
+    margin: 0 2px;
+    font-size: 14px;
+}
+.mid-section button:hover{
+    border-color:#c6c6c6;
+    background:#f0f0f0;
+}
+
+
