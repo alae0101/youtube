@@ -11,9 +11,11 @@
     <title>Youtube</title>
 </head>
 <body>
+<div class="container">
+
 <header>
     <div class="left-section">
-        <i class="material-icons logo">menu</i>
+        <i class="material-icons logo menu-show">menu</i>
         <img width="200" src="images/logo.png" alt="">
     </div>
     <div class="mid-section">
@@ -30,12 +32,22 @@
         <a href=""><i class="material-icons">circle</i></a>
     </div>
 </header>
+    <div class="black-screen"></div>
 <div class="content-area">
-    <aside>
+    <aside class="hide">
+        <div class="left-section aside">
+            <i class="material-icons logo menu-hide">menu</i>
+            <img width="200" src="images/logo.png" alt="">
+        </div>
+
         <nav>
-            
+            <ul>
+                <li></li>
+            </ul>
         </nav>
     </aside>
 </div>
+</div>
 </body>
+<script src="javascript/main.js"></script>
 </html>

@@ -5,7 +5,9 @@
     padding:0;
     box-sizing: border-box
 }
-
+body , html{
+    min-height: 100vh;
+}
 html{
     font-size: 10px;
 }
@@ -32,6 +34,7 @@ header{
     align-items: center;
     width: 26%;
 
+
 }
 .left-section > *{
     cursor:pointer;
@@ -41,17 +44,20 @@ header{
 .left-section img{
     width:86px;
     margin-left:16px;
+
 }
 .mid-section{
     display: flex;
     align-items: center;
     margin-left:-9%;
     width: 58%;
+
 }
 .mid-section form{
     display: flex;
     height: 40px;
     width:80%;
+
 }
 .mid-section input{
     width:100%;
@@ -105,6 +111,7 @@ header{
     align-items: center;
     cursor:pointer;
     margin:0 8px;
+
 }
 
 
@@ -125,3 +132,25 @@ header{
 }
 
 
+aside {
+    position: absolute;
+
+    top:0;
+    padding:16px  16px 0 16px ;
+    height: 100%;
+z-index: 99;
+    background: #fff;
+    transition: all 0.2s;
+}
+aside .aside{
+
+}
+.black-screen{
+    position: absolute;
+    top:0;
+    background: rgb(40, 40, 40,0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    min-height: 100vh
+}
