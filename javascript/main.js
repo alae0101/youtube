@@ -9,21 +9,28 @@ console.log(aside);
 
 container = document.querySelector(".black-screen");
 
-
-
-menuHide.onclick = function  () {
+function  hide() {
     container.style.display= 'none';
 
     container.style.width= `0`;
     aside.style.left = `-158px`;
 }
-menuShow.onclick=function  () {
+function show () {
     // container.style.zIndex = 99;
     container.style.display= 'block';
 
     container.style.width= `100vw`;
     aside.style.left = 0;
 }
+container.onclick = hide;
+menuHide.onclick = hide;
+menuShow.onclick = show;
+
+
+subscription = document.querySelectorAll('.subscription');
+
+
+
 
 
 

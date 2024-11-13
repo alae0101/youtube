@@ -152,5 +152,29 @@ aside .aside{
     width: 100%;
     height: 100%;
     z-index: 98;
-    min-height: 100vh
+    min-height: 100vh;
+}
+
+
+.main-menu-section {
+
+}
+.main-menu-section ul  {
+    list-style: none;
+}
+.main-menu-section ul  li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    height: 25px;
+    border-radius: 5px;
+    padding:0 4px;
+    cursor:pointer;
+}
+.main-menu-section ul  li:hover {
+    background: #c6c6c6;
+}
+.main-menu-section ul  li .material-icons {
+    font-size: 19px;
 }
